@@ -1,7 +1,7 @@
 ---
 # PostgreSQL deployment
 - hosts: all-servers
-  remote_user: ec2-user
+  remote_user: centos
   sudo: yes
   roles:
     - { role: sfromm.postgresql }
