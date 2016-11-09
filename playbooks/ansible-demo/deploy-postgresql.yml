@@ -1,6 +1,6 @@
 ---
 # PostgreSQL deployment
-- hosts: all-servers
+- hosts: all
   remote_user: centos
   sudo: yes
   roles:
